@@ -1,6 +1,7 @@
 {
   "name": "todoist",
   "version": "0.1.0",
+  "homepage": "https://ClementLegros.github.io/basic_to_do",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
@@ -17,6 +18,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
